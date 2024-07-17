@@ -64,7 +64,7 @@ public class Tool {
             return true;
         }
         // Labor Day holiday
-        if (date.getMonth() == Month.SEPTEMBER && date.getDayOfWeek() == DayOfWeek.MONDAY && (dayOfMonth >= 1 && dayOfMonth <= 7)) {
+        if (date.getMonth() == Month.SEPTEMBER && date.getDayOfWeek() == DayOfWeek.MONDAY && (date.getDayOfMonth() >= 1 && date.getDayOfMonth() <= 7)) {
             return true;
         }
         return false;
